@@ -1,7 +1,7 @@
 # Froyo
-
 Free theme for Ghost. Built upon Casper. 
-Adapted by Arran France for use on arranfrance.com
+
+Adapted by Arran France for use on [blog.arranfrance.com](http://blog.arranfrance.com).
 
 To enable comments, place your Disqus shortname in the 'data-disqus-shortname' attribute of the #disqus_thread section at the bottom of the post.hbs file.
 
