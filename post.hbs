@@ -41,7 +41,11 @@
             <section class="post-author">
                 <div class="inner">
                     <div class="author-image-container col-aside">
+                      {{#if author.id == 1}}
+                      <img src="http://1.gravatar.com/avatar/646c698b580eb0ee44a7e4a55c33aaec" class="author-image" />
+                      {{#else}}
                         <img src="{{author.image}}" class="author-image" />
+                      {{/if}}
                     </div>
                     <div class="author-info">
                         <h4>{{author.name}}</h4>
